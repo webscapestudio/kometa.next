@@ -2,7 +2,7 @@ import React from "react";
 import { Logo } from "./Logo";
 import Link from "next/link";
 import { CallButton } from "./CallButton";
-import { ChevronDown, PhoneCall } from "lucide-react";
+import { PhoneCall } from "lucide-react";
 import { HeaderLink } from "./HeaderLink";
 
 const links = [
