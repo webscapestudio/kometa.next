@@ -6,7 +6,7 @@ import localFont from "next/font/local";
 const involveFont = localFont({
   src: [
     {
-      path: "../public/fonts/Involve-regular.ttf",
+      path: "../public/fonts/Involve-Regular.ttf",
       weight: "400",
       style: "normal",
     },
