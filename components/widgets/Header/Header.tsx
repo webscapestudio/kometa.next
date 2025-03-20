@@ -23,11 +23,11 @@ const links = [
 
 export const Header = () => {
   return (
-    <header className="fixed top-0 left-0 w-full bg-white border-gray-light py-3 border-b  z-10">
+    <header className="sticky top-0 bg-white border-gray-light py-3 border-b z-10">
       <div className="container">
         <div className="flex items-center">
           <Logo />
-          <div className="flex  ml-[64px] gap-8">
+          <div className="flex  ml-[64px] gap-6">
             {links.map((link) => (
               <HeaderLink
                 key={link.slug}

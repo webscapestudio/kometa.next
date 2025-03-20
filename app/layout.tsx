@@ -22,7 +22,7 @@ const involveFont = localFont({
     },
     {
       path: "../public/fonts/Involve-SemiBold.ttf",
-      weight: "700",
+      weight: "600",
       style: "normal",
     },
   ],

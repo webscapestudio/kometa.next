@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --color-gray-light: #f7f7f7;
+  --color-gray-light: #ededed;
+  --color-gray-text: #4b4b4b;
   --color-black-bg: #252422;
   --color-black-text: #252422;
   --color-accent: #e24d43;
@@ -10,7 +11,7 @@
 body {
   font-weight: 400;
   font-size: 16px;
-  line-height: 140%;
+  line-height: 150%;
   color: var(--black-text);
 }
 
@@ -22,7 +23,8 @@ body {
 // }
 
 @layer components {
-  .typography {}
+  .typography {
+  }
 }
 
 @media (prefers-color-scheme: dark) {
