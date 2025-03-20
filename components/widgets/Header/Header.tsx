@@ -43,7 +43,7 @@ export const Header = () => {
               href="tel:+7 993 338 08 88"
               className="flex items-center gap-2 font-semibold leading-none transition-all duration-300 hover:text-accent"
             >
-              <PhoneCall size={18} />
+              <PhoneCall size={20} />
               <span>+7 993 338 08 88</span>
             </Link>
             <CallButton />

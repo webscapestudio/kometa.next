@@ -16,10 +16,10 @@ export const HeaderLink = ({
   return (
     <Link
       href={slug}
-      className="font-semibold flex items-center gap-2 transition-all duration-300 hover:text-accent"
+      className="font-semibold flex items-center gap-1 transition-all duration-300 hover:text-accent"
     >
       <span>{name}</span>
-      {chevron && <ChevronDown size={16} strokeWidth={2} />}
+      {chevron && <ChevronDown size={20} strokeWidth={2} />}
     </Link>
   );
 };
