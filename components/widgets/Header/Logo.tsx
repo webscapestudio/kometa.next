@@ -3,7 +3,7 @@ import React from "react";
 
 export const Logo = () => {
   return (
-    <Link href="/" className="h-[48px] block">
+    <Link href="/" className="h-[48px] block max-[769px]:h-[40px]">
       <svg
         className="h-full w-auto block"
         xmlns="http://www.w3.org/2000/svg"
