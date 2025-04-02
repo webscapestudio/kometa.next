@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.scss";
-import { Footer, Header } from "@/components/widgets";
+import { Footer, Header, ServicesNavigation } from "@/components/widgets";
 import localFont from "next/font/local";
+import classNames from "classnames";
 
 const involveFont = localFont({
   src: [
@@ -44,6 +45,7 @@ export default function RootLayout({
         className={`${involveFont.className} antialiased flex flex-col min-h-screen`}
       >
         <Header />
+        <ServicesNavigation />
         <main className="grow">{children}</main>
         <Footer />
       </body>
