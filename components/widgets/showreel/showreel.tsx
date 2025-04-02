@@ -10,7 +10,13 @@ export const Showreel: React.FC<Props> = ({ className }) => {
     <section className={classNames("", className)}>
       <div className="container">
         <div className="aspect-video bg-gray-light overflow-hidden rounded-[8px] max-[1201px]:rounded-[4px]">
-          <video muted loop autoPlay className="w-full h-full object-cover">
+          <video
+            muted
+            loop
+            autoPlay
+            playsInline
+            className="w-full h-full object-cover"
+          >
             <source src="/Scene.mp4" type="video/mp4" />
           </video>
         </div>
