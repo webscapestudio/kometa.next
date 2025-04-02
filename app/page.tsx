@@ -1,5 +1,5 @@
 import { Socials } from "@/components/ui";
-import { ServicesTabs } from "@/components/widgets";
+import { ServicesTabs, Showreel } from "@/components/widgets";
 
 export default function Home() {
   return (
@@ -22,7 +22,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* <ServicesTabs /> */}
+      <Showreel className="mt-0" />
+      <ServicesTabs className="max-[768px]:hidden mt-10" />
     </>
   );
 }
