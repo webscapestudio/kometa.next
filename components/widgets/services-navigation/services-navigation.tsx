@@ -50,22 +50,22 @@ export const ServicesNavigation: React.FC<Props> = ({ className }) => {
     <div
       className={classNames(
         className,
-        "fixed bg-white z-10 w-full h-full -top-full transition-all duration-300",
+        "fixed bg-white z-10 w-full h-full -top-full transition-all duration-300 ",
         {
           ["top-[73px]"]: isOpen,
         }
       )}
     >
       <div className="container">
-        <div className="flex flex-col gap-[80px] mt-20">
+        <div className="flex flex-col gap-[80px] mt-20 max-[1441px]:gap-[20px] max-[1441px]:mt-10 ">
           <div className="grid grid-cols-4 gap-4">
             {servicesLinks.map((item) => (
               <div className="" key={item.id}>
-                <h4 className="text-[24px] leading-[120%] font-medium ">
+                <h4 className="text-[24px] leading-[120%] font-medium max-[1441px]:text-[20px]">
                   {item.name}
                 </h4>
 
-                <nav className="mt-6 flex flex-col gap-4 ">
+                <nav className="mt-6 flex flex-col gap-4 max-[1441px]:gap-3 max-[1441px]:mt-4">
                   {item.links.map((link) => (
                     <Link
                       key={link.id}

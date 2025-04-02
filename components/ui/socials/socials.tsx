@@ -35,11 +35,11 @@ interface Props {
 
 export const Socials: React.FC<Props> = ({ className }) => {
   return (
-    <div className={cn(className, "flex gap-2")}>
+    <div className={cn(className, "flex gap-2 max-[769px]:gap-1")}>
       {data.map((item) => (
         <Link
           href={item.link}
-          className="relative block w-12 h-12"
+          className="relative block w-12 h-12 max-[1441px]:w-10 max-[1441px]:h-10 max-[768px]:w-8 max-[768px]:h-8"
           target="_blank"
           key={item.id}
         >
