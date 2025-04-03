@@ -1,5 +1,11 @@
 import { Socials } from "@/components/ui";
 import { ServicesTabs, Showreel } from "@/components/widgets";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Главная",
+  description: "Главная страница сайта",
+};
 
 export default function Home() {
   return (
@@ -23,7 +29,7 @@ export default function Home() {
       </section>
 
       <Showreel className="mt-0" />
-      <ServicesTabs className="max-[768px]:hidden mt-10" />
+      <ServicesTabs className="max-[768px]:hidden mt-[120px]" />
     </>
   );
 }

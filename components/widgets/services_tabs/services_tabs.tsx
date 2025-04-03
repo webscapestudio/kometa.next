@@ -1,6 +1,8 @@
 import React from "react";
 
 import { services_tabs_data } from "../../../db";
+import { Title } from "@/components/ui";
+import { ServiceTab } from "./service-tab";
 
 interface Props {
   className?: string;
@@ -10,14 +12,10 @@ export const ServicesTabs: React.FC<Props> = ({ className }) => {
   return (
     <section className={className}>
       <div className="container">
-        <div className="flex gap-2 flex-wrap">
+        <Title tag="h2">Мы классно делаем:</Title>
+        <div className="flex gap-2 mt-4 flex-wrap">
           {services_tabs_data.map((tab, index) => (
-            <button
-              key={index}
-              className="border border-gray-light rounded-[4px] py-2 px-4 leading-none transition-colors duration-300 hover:bg-accent hover:text-white max-[1201px]:text-[14px]"
-            >
-              {tab.title}
-            </button>
+            <ServiceTab key={tab.id} title={tab.title} />
           ))}
         </div>
 
