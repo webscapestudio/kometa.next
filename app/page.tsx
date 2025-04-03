@@ -1,5 +1,10 @@
 import { Socials } from "@/components/ui";
-import { ServicesTabs, Showreel } from "@/components/widgets";
+import {
+  FeaturesMarquee,
+  Projects,
+  ServicesTabs,
+  Showreel,
+} from "@/components/widgets";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -30,6 +35,8 @@ export default function Home() {
 
       <Showreel className="mt-0" />
       <ServicesTabs className="max-[768px]:hidden mt-[120px]" />
+      <FeaturesMarquee />
+      <Projects />
     </>
   );
 }

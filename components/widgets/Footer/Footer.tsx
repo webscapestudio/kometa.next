@@ -135,7 +135,7 @@ export const Footer = () => {
 
           <div className="w-full h-[1px] bg-[#4B4B4B] my-6"></div>
 
-          <div className="flex gap-4 text-gray-text text-[14px] leading-[130%]">
+          <div className="grid grid-cols-2 gap-5 text-gray-text text-[14px] leading-[130%]">
             <p className="grow">
               Мы используем cookies для сбора обезличенных персональных данных.
               Они помогают настраивать рекламу и анализировать трафик. Оставаясь

@@ -20,7 +20,7 @@ export const ServicesTabs: React.FC<Props> = ({ className }) => {
         </div>
 
         <div className="mt-2">
-          <div className="border border-gray-light p-6 rounded-[8px] max-[1441px]:p-4 ">
+          <div className="border border-gray-light p-6 rounded-[4px] max-[1441px]:p-4 ">
             <div className="">
               <h3 className="text-[20px] leading-[130%] font-medium max-[1441px]:text-[18px]">
                 Разработаем уникальный дизайн, продумаем все мелочи и оставим
