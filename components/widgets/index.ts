@@ -1,3 +1,4 @@
+export { Services } from "./services/services";
 export { Blog } from "./blog/blog";
 export { ProjectCard } from "./project-card/project-card";
 export { Projects } from "./projects/projects";

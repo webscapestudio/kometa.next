@@ -1,4 +1,4 @@
-import { Title } from "@/components/ui";
+import { Button, Title } from "@/components/ui";
 import clsx from "clsx";
 import React from "react";
 import { BlogCard } from "./blog-card";
@@ -23,6 +23,10 @@ export const Blog: React.FC<Props> = ({ className }) => {
           <BlogCard />
           <BlogCard />
           <BlogCard />
+        </div>
+
+        <div className="flex mt-4 justify-end">
+          <Button className="w">Все статьи и новости</Button>
         </div>
       </div>
     </section>

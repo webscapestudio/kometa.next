@@ -3,6 +3,7 @@ import {
   Blog,
   FeaturesMarquee,
   Projects,
+  Services,
   ServicesTabs,
   Showreel,
 } from "@/components/widgets";
@@ -38,7 +39,9 @@ export default function Home() {
       <ServicesTabs className="max-[768px]:hidden mt-[120px]" />
       <FeaturesMarquee />
       <Projects />
+      <Services />
       <Blog />
+      <section className="mt-[120px]"></section>
     </>
   );
 }
