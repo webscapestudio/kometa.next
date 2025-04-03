@@ -30,15 +30,11 @@ export const ServiceItem: React.FC<Props> = ({ className }) => {
               fill="none"
               stroke="#252422"
             >
-              <path
-                d="M5 12H19"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
+              <path d="M5 12H19" strokeLinecap="round" strokeLinejoin="round" />
               <path
                 d="M12 5L19 12L12 19"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </div>
