@@ -1,5 +1,6 @@
 import { Socials } from "@/components/ui";
 import {
+  Blog,
   FeaturesMarquee,
   Projects,
   ServicesTabs,
@@ -37,6 +38,7 @@ export default function Home() {
       <ServicesTabs className="max-[768px]:hidden mt-[120px]" />
       <FeaturesMarquee />
       <Projects />
+      <Blog />
     </>
   );
 }

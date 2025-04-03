@@ -1,3 +1,4 @@
+export { Blog } from "./blog/blog";
 export { ProjectCard } from "./project-card/project-card";
 export { Projects } from "./projects/projects";
 export { FeaturesMarquee } from "./features-marquee/features-marquee";

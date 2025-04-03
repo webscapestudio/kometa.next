@@ -19,15 +19,15 @@ export const Projects: React.FC<Props> = ({ className }) => {
 
         {/* List */}
 
-        <div className="flex flex-col mt-10 gap-4">
+        <div className="flex flex-col mt-10 gap-2">
           <ProjectCard className="bg-[#FFEF61]" />
           <ProjectCard className="bg-[#8D07E6]" textwhite />
           <ProjectCard className="bg-[#252422]" textwhite />
           <ProjectCard className="bg-[#5E35CF]" textwhite />
         </div>
 
-        <div className="flex mt-10 justify-end">
-          <Button className="w-1/4">Смотреть все кейсы</Button>
+        <div className="flex mt-2 justify-end">
+          <Button className="w-1/4">Смотреть все кейсы (120)</Button>
         </div>
       </div>
     </section>

@@ -1,3 +1,4 @@
+import { LinkArrow } from "@/components/ui";
 import clsx from "clsx";
 import Link from "next/link";
 import React from "react";
@@ -54,7 +55,9 @@ export const ProjectCard: React.FC<Props> = ({
         ></div>
 
         <div className="flex justify-end">
-          <Link href={""}>asdasd</Link>
+          <LinkArrow variant={textwhite ? "white" : "default"}>
+            Смотреть полный кейс
+          </LinkArrow>
         </div>
       </div>
       <div className="pl-4"></div>

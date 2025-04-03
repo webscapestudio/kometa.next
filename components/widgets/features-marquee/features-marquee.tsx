@@ -10,7 +10,7 @@ export const FeaturesMarquee: React.FC<Props> = ({ className }) => {
     <div
       className={clsx(
         className,
-        "my-[120px] leading-[150%] font-bold text-gray-light flex gap-10 uppercase text-[48px] text-nowrap"
+        "my-[120px] leading-[150%] font-bold text-gray-light flex gap-10 uppercase text-[48px] text-nowrap overflow-x-hidden"
       )}
     >
       <p>100+ ПРОЕКТОВ</p>
