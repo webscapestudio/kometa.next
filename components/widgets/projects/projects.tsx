@@ -1,4 +1,4 @@
-import { Title } from "@/components/ui";
+import { Button, Title } from "@/components/ui";
 import React from "react";
 import { ProjectCard } from "../project-card/project-card";
 
@@ -24,6 +24,10 @@ export const Projects: React.FC<Props> = ({ className }) => {
           <ProjectCard className="bg-[#8D07E6]" textwhite />
           <ProjectCard className="bg-[#252422]" textwhite />
           <ProjectCard className="bg-[#5E35CF]" textwhite />
+        </div>
+
+        <div className="flex mt-10 justify-end">
+          <Button className="w-1/4">Смотреть все кейсы</Button>
         </div>
       </div>
     </section>
